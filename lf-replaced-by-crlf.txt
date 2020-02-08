@@ -1,0 +1,7 @@
+######### warning: LF will be replaced by CRLF.
+
+Depending on the editor you are using, a text file with LF wouldn't necessary be saved with CRLF: recent editors can preserve eol style. But that git config setting insists on changing those...
+
+Simply make sure that (as I recommend here):
+
+	$git config --global core.autocrlf false
