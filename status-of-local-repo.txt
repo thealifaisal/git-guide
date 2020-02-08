@@ -1,0 +1,5 @@
+########### check-status-of-local-repo
+
+	$ git status
+
+shows the files to commit, if there is nothing to commit, ...
