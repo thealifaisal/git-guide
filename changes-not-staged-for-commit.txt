@@ -2,10 +2,11 @@ when you change a file which is already in the repository, you have to git add i
 
 This allows you to commit only a subset of the changes you made since the last commit. For example, let's say you have file a, file b and file c. You modify file a and file b but the changes are very different in nature and you don't want all of them to be in one single commit. You issue
 
-git add a
-git commit a -m "bugfix, in a"
-git add b
-git commit b -m "new feature, in b"
+git add a.txt
+git commit a.txt -m "bugfix, in a"
+git add b.cpp
+git commit b.cpp -m "new feature, in b"
+
 As a side note, if you want to commit everything you can just type
 
 git commit -a
