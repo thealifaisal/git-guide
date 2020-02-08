@@ -1,0 +1,13 @@
+##### git-clone-downloads-the-remote-repo-to-local-repo
+
+In its simplest (and most common) form, only the repository URL is specified:
+
+	$ cd folder/to/clone-into/
+	$ git clone https://github.com/gittower/git-crash-course.git
+
+This will download the project to a folder named after the Git repository ("git-crash-course" in this case). If you want a different folder name, simply specify it as the last parameter:
+
+	$ git clone https://github.com/gittower/git-crash-course.git other-name
+
+git-tower:
+https://www.git-tower.com/learn/git/commands/git-clone
