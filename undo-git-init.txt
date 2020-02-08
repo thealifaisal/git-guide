@@ -1,6 +1,8 @@
 ########### is-there-a-command-to-undo-git-init
 
-You can just delete .git. Typically:
+You can just delete .git 
+Typically:
 
-rm -rf .git
+        $ rm -rf .git
+        
 Then, recreate as the right user.
