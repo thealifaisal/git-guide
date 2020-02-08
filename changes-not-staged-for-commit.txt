@@ -1,3 +1,5 @@
+##### changes-not-staged-for-commit
+
 when you change a file which is already in the repository, you have to git add it again if you want it to be staged.
 
 This allows you to commit only a subset of the changes you made since the last commit. For example, let's say you have file a, file b and file c. You modify file a and file b but the changes are very different in nature and you don't want all of them to be in one single commit. You issue
@@ -12,5 +14,6 @@ As a side note, if you want to commit everything you can just type
 git commit -a
 Hope it helps.
 
+stackoverflow:
 https://stackoverflow.com/questions/21134960/what-does-changes-not-staged-for-commit-mean
 by Stefano-Falasca
