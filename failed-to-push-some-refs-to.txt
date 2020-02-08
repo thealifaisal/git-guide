@@ -1,0 +1,13 @@
+##### git-error-failed-to-push-some-refs-to
+
+If the GitHub repo has seen new commits pushed to it, while you were working locally, I would advise using:
+
+The full syntax is:
+
+	$ git pull --rebase origin master
+	$ git push origin master
+
+stackoverflow:
+https://stackoverflow.com/questions/24114676/git-error-failed-to-push-some-refs-to
+
+Answered By: VonC
