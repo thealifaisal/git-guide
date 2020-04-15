@@ -1,0 +1,36 @@
+I had php file in repo that was being shown as Hack file.
+
+so what I did was to add a .gitattributes file in my root dir and 
+
+creating a .gitattributes file:
+
+Is .gitattributes a file or a folder ? How do I create it ?
+Windows : Create a new text file (Right click>new>text file) within windows explorer and rename it (Shortcut : F2) as follows
+
+.gitattributes.
+Note : That is DOT + gitattributes + DOT, windows will remove the trailing DOT for you producing the appropriate filename
+
+Unix : and it's variants (Ubuntu, Raspberrian, Mac OS etc.)
+
+touch .gitattributes
+Alternatively : Clone the Git Attributes repository and move/copy the .gitattributes file that is applicable to your repository (Footnote 1 and 2).
+
+Where should one add the file ? Under the repository root, X:\PATH\TO\Repository\, or the Git folder, X:\PATH\TO\Repository\.git\ ?
+There are two locations where one can add the Git attributes file
+
+    \Repository                        (1)
+    \Repository\.git\info\attributes   (3)
+Adding a .gitattributes file here sets the attributes "Universally".
+Creating the .gitattributes file here sets the attributes "Personally", that is the repository upon one's own machine. While inadvisable you may a have good reason for doing so .
+
+wrote a line in .gitattributes:
+
+> *.php linguist-language=PHP
+
+and commited the changes and pushed.
+THe .php files were shown as PHP.
+
+sources:
+
+https://stackoverflow.com/questions/18331048/how-to-create-a-git-attributes-file
+https://github.com/github/linguist#overrides
